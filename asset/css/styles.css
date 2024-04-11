@@ -1,11 +1,15 @@
-.grid-item {
-    background-color: #ccc;
-    border: 1px solid #999;
-    height: 20px;
-    width: 20px;
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 960px;
+    width: 960px;
+    border: 1px solid black;
 }
-#container {
-    display: grid;
-    grid-template-columns: repeat(16, 20px);
-    grid-template-rows: repeat(16, 20px);
+
+.grid-item {
+    background-color: #e3e3e4;
+    height: 60px; /* Adjust height to account for the border */
+    width: 60px; 
+    border: 1px solid #999;
+    box-sizing: border-box; 
 }
