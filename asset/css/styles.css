@@ -7,9 +7,10 @@
 }
 
 .grid-item {
-    background-color: #e3e3e4;
+    background-color: #eeeeee;
     height: 60px; /* Adjust height to account for the border */
     width: 60px; 
-    border: 1px solid #999;
+    border: .5px solid #e6e6e6;
     box-sizing: border-box; 
 }
+
