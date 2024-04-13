@@ -14,3 +14,20 @@
     box-sizing: border-box; 
 }
 
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button:active {
+    background-color: rgb(81, 72, 201);
+}
